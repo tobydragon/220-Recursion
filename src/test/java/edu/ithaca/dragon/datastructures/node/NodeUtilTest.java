@@ -14,7 +14,7 @@ public class NodeUtilTest {
         int total = rec.total(example);
         assertEquals(20, total);
 
-        NodeUtil recTail = new RecursiveNodeUtil();
+        NodeUtil recTail = new TailRecursiveNodeUtil();
         total = recTail.total(example);
         assertEquals(20, total);
     }
