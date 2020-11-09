@@ -1,6 +1,6 @@
 package edu.ithaca.dragon.datastructures.node;
 
-public class RecursiveNodeUtil implements NodeUtil {
+public class RecursiveNodeUtil{
     
     public int total(Node<Integer> aNode){
         if (aNode == null){

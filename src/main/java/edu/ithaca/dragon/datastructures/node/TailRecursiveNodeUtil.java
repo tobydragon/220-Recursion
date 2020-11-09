@@ -1,8 +1,7 @@
 package edu.ithaca.dragon.datastructures.node;
 
-public class TailRecursiveNodeUtil implements NodeUtil {
+public class TailRecursiveNodeUtil{
     
-    @Override
     public int total(Node<Integer> aNode){
         int myTotal = total(aNode, 0);
         return myTotal;
